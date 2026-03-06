@@ -24,3 +24,5 @@ var square = (int x) => x * x;
 | `(x) => x * x` | `{ x -> x * x }` |
 | `list.where((x) => ...)` | `list.filter { ... }` |
 | `list.fold(0, (acc, x) => ...)` | `list.fold(0) { acc, x -> ...}` |
+## Notes
+Lambdas are heavily used throughout the GradeCalculator project.
